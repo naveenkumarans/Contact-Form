@@ -167,7 +167,7 @@ const Contact = () => {
       return;
     }
 
-    emailjs.sendForm("service_bdt9rbd", "template_nywsa2m", form.current, "edd6V1JsJWJuMC-dN")
+    emailjs.sendForm("update with your credentials")
       .then((result) => {
         setSuccessMessage('🎉 Thank you for reaching out! I will get back to you soon. 🚀');
 
